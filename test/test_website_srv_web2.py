@@ -40,6 +40,6 @@ def test_integration_contract():
 
      
 
-    assert_true (content_type == constants.content_type)
-    #assert_true (x_ackend_server == constants.web2)
+    #assert_true (content_type == constants.content_type)
+    assert_true (x_ackend_server == constants.web2)
  

@@ -40,5 +40,5 @@ def test_integration_contract():
 
      
 
-    assert_true (content_type == constants.content_type)
-    #assert_true (content_type == 'text/html; charset="utf-8"')
+    #assert_true (content_type == constants.content_type)
+    assert_true (x_backend_server == constants.web1)
